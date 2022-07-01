@@ -142,3 +142,7 @@ D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql
 D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\obj\Debug\WebApplication1.dll
 D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\bin\EntityFramework.dll
+D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\bin\EntityFramework.SqlServer.dll
+D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\bin\EntityFramework.xml
+D:\FolderInDesktop\Technical\Project\tham-khao\save and show data excel file sql\WebApplication1\bin\EntityFramework.SqlServer.xml

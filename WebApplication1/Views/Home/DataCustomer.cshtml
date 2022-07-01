@@ -1,0 +1,22 @@
+﻿@using WebApplication1.Models
+@model List<info>
+
+<table cellspacing="5">
+    <tr>
+        <th>STT</th>
+        <th>Id</th>
+        <th>Phone</th>
+        <th>Gift</th>
+    </tr>
+    @{ var stt = 1; } 
+    @foreach (var i in Model)
+    {
+        <tr>
+            <td>@stt</td>
+            <td>@i.Id</td>
+            <td>@i.Phone</td>
+            <td>@i.Gift</td>
+        </tr>
+        stt++;
+    }
+</table>

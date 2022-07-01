@@ -10,6 +10,19 @@
 
 </head>
 <body>
+    @if (TempData["msgCreatefailed"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible bg-danger text-white border-0 fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            @TempData["msgCreatefailed"]
+        </div>
+    }
+
+
+    @Html.ActionLink("Promotion", "InfoPromotion", "Home")
+
     <h1>Import data of Uploaded Excel into Database</h1>
     <h2>Import your Excel file</h2>
 
@@ -38,16 +51,19 @@
                 }
             </tr>
             @foreach (DataRow row in Model.Tables[0].Rows)
-                {
-                    <tr>
-                        @foreach(DataColumn col in Model.Tables[0].Columns)
+            {
+                <tr>
+                    @foreach (DataColumn col in Model.Tables[0].Columns)
                     {
                         <td align="center">@row[col.ColumnName]</td>
                     }
-                    </tr>
-                }
+                </tr>
+            }
         </table>
     }
+
+
+    @Html.Action("DataCustomer", "Home")
 
     <script src="~/Assets/js/script.js"></script>
 </body>
